@@ -1,11 +1,11 @@
 # WebGoat 8: A deliberately insecure Web Application
 
-[![Build](https://github.com/WebGoat/WebGoat/actions/workflows/build.yml/badge.svg?branch=develop)](https://github.com/WebGoat/WebGoat/actions/workflows/build.yml)
+[![Build](https://github.com/mrping007/webgoat/actions/workflows/build.yml/badge.svg?branch=develop)](https://github.com/mrping007/webgoat/actions/workflows/build.yml)
 [![java-jdk](https://img.shields.io/badge/java%20jdk-17-green.svg)](https://jdk.java.net/)
 [![OWASP Labs](https://img.shields.io/badge/OWASP-Lab%20project-f7b73c.svg)](https://owasp.org/projects/)
-[![GitHub release](https://img.shields.io/github/release/WebGoat/WebGoat.svg)](https://github.com/WebGoat/WebGoat/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/mrping007/webgoat.svg)](https://github.com/mrping007/webgoat/releases/latest)
 [![Gitter](https://badges.gitter.im/OWASPWebGoat/community.svg)](https://gitter.im/OWASPWebGoat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Discussions](https://img.shields.io/github/discussions/WebGoat/WebGoat)](https://github.com/WebGoat/WebGoat/discussions)
+[![Discussions](https://img.shields.io/github/discussions/mrping007/webgoat)](https://github.com/mrping007/webgoat/discussions)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 # Introduction
@@ -38,16 +38,16 @@ For more details check [the Contribution guide](/CONTRIBUTING.md)
 
 Already have a browser and ZAP and/or Burp installed on your machine in this case you can run the WebGoat image directly using Docker.
 
-Every release is also published on [DockerHub](https://hub.docker.com/r/webgoat/webgoat).
+Every release is also published on [DockerHub](https://hub.docker.com/r/mrping007/webgoat).
 
 ```shell
-docker run -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat
+docker run -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 mrping007/webgoat
 ```
 
 If you want to reuse the container, give it a name:
 
 ```shell
-docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat
+docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 mrping007/webgoat
 ```
 
 As long as you don't remove the container you can use:
@@ -63,12 +63,12 @@ This way, you can start where you left off. If you remove the container, you nee
 Instead of installing tools locally we have a complete Docker image based on running a desktop in your browser. This way you only have to run a Docker image which will give you the best user experience.
 
 ```shell
-docker run -p 127.0.0.1:3000:3000 webgoat/webgoat-desktop
+docker run -p 127.0.0.1:3000:3000 mrping007/webgoat-desktop
 ```
 
 ## 3. Standalone
 
-Download the latest WebGoat release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
+Download the latest WebGoat release from [https://github.com/mrping007/webgoat/releases](https://github.com/mrping007/webgoat/releases)
 
 ```shell
 java -Dfile.encoding=UTF-8 -Dwebgoat.port=8080 -Dwebwolf.port=9090 -jar webgoat-2023.3.jar
@@ -87,7 +87,7 @@ Click the link in the log to start WebGoat.
 Open a command shell/window:
 
 ```Shell
-git clone git@github.com:WebGoat/WebGoat.git
+git clone git@github.com:mrping007/webgoat.git
 ```
 
 Now let's start by compiling the project.
@@ -102,7 +102,7 @@ git checkout <<branch_name>>
 ./mvnw.cmd clean install
 
 # Using docker or podman, you can than build the container locally
-docker build -f Dockerfile . -t webgoat/webgoat
+docker build -f Dockerfile . -t mrping007/webgoat
 ```
 
 Now we are ready to run the project. WebGoat is using Spring Boot.
@@ -119,7 +119,7 @@ Now we are ready to run the project. WebGoat is using Spring Boot.
 
 Note: The above link will redirect you to login page if you are not logged in. LogIn/Create account to proceed.
 
-To change the IP address add the following variable to the `WebGoat/webgoat-container/src/main/resources/application.properties` file:
+To change the IP address add the following variable to the `mrping007/webgoat-container/src/main/resources/application.properties` file:
 
 ```
 server.address=x.x.x.x
@@ -140,6 +140,6 @@ java -jar target/webgoat-2023.3-SNAPSHOT.jar
 Or in a docker run it would (once this version is pushed into docker hub) look like this:
 
 ```Shell
-docker run -d -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/webgoat
+docker run -d -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" mrping007/webgoat
 ```
 

@@ -60,7 +60,7 @@ jobs:
                 run: python3 -m robot --variable HEADLESS:"1" --outputdir robotreport robot/goat.robot
             # send report to forks only due to limits on permission tokens
             -   name: Send report to commit
-                if: github.repository != 'WebGoat/WebGoat' && github.event_name == 'push'
+                if: github.repository != 'mrping007/webgoat' && github.event_name == 'push'
                 uses: joonvena/robotframework-reporter-action@v2.1
                 with:
                     gh_access_token: ${{ secrets.GITHUB_TOKEN }}

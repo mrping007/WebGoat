@@ -1,8 +1,8 @@
 # Contributing
 
-[![GitHub contributors](https://img.shields.io/github/contributors/WebGoat/WebGoat.svg)](https://github.com/WebGoat/WebGoat/graphs/contributors)
-![GitHub issues by-label "help wanted"](https://img.shields.io/github/issues/WebGoat/WebGoat/help%20wanted.svg)
-![GitHub issues by-label "good first issue"](https://img.shields.io/github/issues/WebGoat/WebGoat/good%20first%20issue.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/mrping007/webgoat.svg)](https://github.com/mrping007/webgoat/graphs/contributors)
+![GitHub issues by-label "help wanted"](https://img.shields.io/github/issues/mrping007/webgoat/help%20wanted.svg)
+![GitHub issues by-label "good first issue"](https://img.shields.io/github/issues/mrping007/webgoat/good%20first%20issue.svg)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 This document describes how you can contribute to WebGoat. Please read it carefully.
@@ -17,8 +17,8 @@ This document describes how you can contribute to WebGoat. Please read it carefu
 
 There are a couple of ways on how you can contribute to the project:
 
-* **File [issues](https://github.com/WebGoat/WebGoat/issues "Webgoat Issues")** for missing content or errors. Explain what you think is missing and give a suggestion as to where it could be added.
-* **Create a [pull request (PR)](https://github.com/WebGoat/WebGoat/pulls "Create a pull request")**. This is a direct contribution to the project and may be merged after review. You should ideally [create an issue](https://github.com/WebGoat/WebGoat/issues "WebGoat Issues") for any PR you would like to submit, as we can first review the merit of the PR and avoid any unnecessary work. This is of course not needed for small modifications such as correcting typos.
+* **File [issues](https://github.com/mrping007/webgoat/issues "Webgoat Issues")** for missing content or errors. Explain what you think is missing and give a suggestion as to where it could be added.
+* **Create a [pull request (PR)](https://github.com/mrping007/webgoat/pulls "Create a pull request")**. This is a direct contribution to the project and may be merged after review. You should ideally [create an issue](https://github.com/mrping007/webgoat/issues "WebGoat Issues") for any PR you would like to submit, as we can first review the merit of the PR and avoid any unnecessary work. This is of course not needed for small modifications such as correcting typos.
 * **Help out financially** by donating via [OWASP donations](https://owasp.org/donate/?reponame=www-project-webgoat&title=OWASP+WebGoat).
 
 ## How to get your PR accepted
@@ -73,7 +73,7 @@ For example: `Fix #545` or `Closes #10`
    	origin git@github.com:<your Github handle>/WebGoat.git (fetch)
    	origin git@github.com:<your Github handle>/WebGoat.git (push)
 
-   	$ git remote add upstream git@github.com:WebGoat/WebGoat.git
+   	$ git remote add upstream git@github.com:mrping007/webgoat.git
 
    	$ git remote -v
    	origin git@github.com:<your Github handle>/WebGoat.git (fetch)
@@ -84,7 +84,7 @@ For example: `Fix #545` or `Closes #10`
 
    See also the GitHub documentation on "[Configuring a remote for a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork "Configuring a remote for a fork")".
 
-5. Choose what to work on, based on any of the outstanding [issues](https://github.com/WebGoat/WebGoat/issues "WebGoat Issues").
+5. Choose what to work on, based on any of the outstanding [issues](https://github.com/mrping007/webgoat/issues "WebGoat Issues").
 
 6. Create a branch so that you can cleanly work on the chosen issue: `git checkout -b FixingIssue66`
 
@@ -116,4 +116,4 @@ Although we greatly appreciate any and all contributions to the project, there a
 * The WebGoat project should not be used as a platform for advertisement for commercial tools, companies or individuals. Write-ups should be written with free and open-source tools in mind and commercial tools are typically not accepted, unless as a reference in the security tools section.
 * Unnecessary self-promotion of tools or blog posts is frowned upon. If you have a relation with on of the URLs or tools you are referencing, please state so in the PR so that we can verify that the reference is in line with the rest of the guide.
 
-Please be sure to take a careful look at our [Code of Conduct](https://github.com/WebGoat/WebGoat/blob/master/CODE_OF_CONDUCT.md) for all the details.
+Please be sure to take a careful look at our [Code of Conduct](https://github.com/mrping007/webgoat/blob/master/CODE_OF_CONDUCT.md) for all the details.

@@ -29,7 +29,7 @@ import org.owasp.webgoat.container.lessons.Lesson;
  *
  * <p>Getting Source ==============
  *
- * <p>Source for this application is maintained at https://github.com/WebGoat/WebGoat, a repository
+ * <p>Source for this application is maintained at https://github.com/mrping007/webgoat, a repository
  * for free software projects.
  *
  * @author Bruce Mayhew <a href="http://code.google.com/p/webgoat">WebGoat</a>

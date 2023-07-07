@@ -15,11 +15,11 @@
 
   <name>WebGoat</name>
   <description>WebGoat, a deliberately insecure Web Application</description>
-  <url>https://github.com/WebGoat/WebGoat</url>
+  <url>https://github.com/mrping007/webgoat</url>
   <inceptionYear>2006</inceptionYear>
   <organization>
     <name>OWASP</name>
-    <url>https://github.com/WebGoat/WebGoat/</url>
+    <url>https://github.com/mrping007/webgoat/</url>
   </organization>
   <licenses>
     <license>
@@ -34,7 +34,7 @@
       <name>Bruce Mayhew</name>
       <email>webgoat@owasp.org</email>
       <organization>OWASP</organization>
-      <organizationUrl>https://github.com/WebGoat/WebGoat</organizationUrl>
+      <organizationUrl>https://github.com/mrping007/webgoat</organizationUrl>
     </developer>
     <developer>
       <id>nbaars</id>
@@ -96,15 +96,15 @@
     </mailingList>
   </mailingLists>
   <scm>
-    <connection>scm:git:git@github.com:WebGoat/WebGoat.git</connection>
-    <developerConnection>scm:git:git@github.com:WebGoat/WebGoat.git</developerConnection>
+    <connection>scm:git:git@github.com:mrping007/webgoat.git</connection>
+    <developerConnection>scm:git:git@github.com:mrping007/webgoat.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/WebGoat/WebGoat</url>
+    <url>https://github.com/mrping007/webgoat</url>
   </scm>
 
   <issueManagement>
     <system>Github Issues</system>
-    <url>https://github.com/WebGoat/WebGoat/issues</url>
+    <url>https://github.com/mrping007/webgoat/issues</url>
   </issueManagement>
 
   <properties>

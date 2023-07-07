@@ -5,7 +5,7 @@ on:
       - v*
 jobs:
   release:
-    if: github.repository == 'WebGoat/WebGoat'
+    if: github.repository == 'mrping007/webgoat'
     name: Release WebGoat
     runs-on: ubuntu-latest
     environment:
@@ -52,9 +52,9 @@ jobs:
 
             ### Bug fixes
 
-            - [#743 - Character encoding errors](https://github.com/WebGoat/WebGoat/issues/743)
+            - [#743 - Character encoding errors](https://github.com/mrping007/webgoat/issues/743)
               
-            Full change log: https://github.com/WebGoat/WebGoat/compare/${{ github.ref_name }}...${{ github.ref_name }}  
+            Full change log: https://github.com/mrping007/webgoat/compare/${{ github.ref_name }}...${{ github.ref_name }}  
 
 
             ## Contributors
@@ -93,8 +93,8 @@ jobs:
           push: true
           platforms: linux/amd64, linux/arm64, linux/arm/v7
           tags: |
-            webgoat/webgoat:${{ env.WEBGOAT_TAG_VERSION }}
-            webgoat/webgoat:latest
+            mrping007/webgoat:${{ env.WEBGOAT_TAG_VERSION }}
+            mrping007/webgoat:latest
           build-args: |
             webgoat_version=${{ env.WEBGOAT_MAVEN_VERSION }}
 
@@ -106,12 +106,12 @@ jobs:
           push: true
           platforms: linux/amd64, linux/arm64
           tags: |
-            webgoat/webgoat-desktop:${{ env.WEBGOAT_TAG_VERSION }}
-            webgoat/webgoat-desktop:latest
+            mrping007/webgoat-desktop:${{ env.WEBGOAT_TAG_VERSION }}
+            mrping007/webgoat-desktop:latest
           build-args: |
             webgoat_version=${{ env.WEBGOAT_MAVEN_VERSION }}
   new_version:
-    if: github.repository == 'WebGoat/WebGoat'
+    if: github.repository == 'mrping007/webgoat'
     name: Update to next SNAPSHOT version
     needs: [ release ]
     runs-on: ubuntu-latest

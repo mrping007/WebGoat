@@ -29,7 +29,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
  *
  * <p>Getting Source ==============
  *
- * <p>Source for this application is maintained at https://github.com/WebGoat/WebGoat, a repository
+ * <p>Source for this application is maintained at https://github.com/mrping007/webgoat, a repository
  * for free software projects.
  *
  * @author Jeff Williams <a href="http://www.aspectsecurity.com">Aspect Security</a>

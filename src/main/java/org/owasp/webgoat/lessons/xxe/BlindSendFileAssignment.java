@@ -42,7 +42,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * <p>Getting Source ==============
  *
- * <p>Source for this application is maintained at https://github.com/WebGoat/WebGoat, a repository
+ * <p>Source for this application is maintained at https://github.com/mrping007/webgoat, a repository
  * for free software projects.
  *
  * <p>

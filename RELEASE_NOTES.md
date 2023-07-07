@@ -4,14 +4,14 @@
 
 ### New functionality
 
-- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/WebGoat/WebGoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.
-- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/WebGoat/WebGoat/issues/1411).
+- [#1422 Add Docker Linux Desktop variant with all tools installed](https://github.com/mrping007/webgoat/issues/1422). Thanks to the [OWASP WrongSecrets project](https://owasp.org/www-project-wrongsecrets/) we now have a Docker Linux desktop image with all the tools installed. No need to install any tools locally only run the new Docker image. See README.md for details on how to start it.
+- [#1411 JWT: looks that buy as Tom also works with alg:none](https://github.com/mrping007/webgoat/issues/1411).
 
 ### Bug fixes
 
-- [#1410 WebWolf: JWT decode is broken](https://github.com/WebGoat/WebGoat/issues/1410).
-- [#1396 password_reset return 500 Error](https://github.com/WebGoat/WebGoat/issues/1396).
-- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379).
+- [#1410 WebWolf: JWT decode is broken](https://github.com/mrping007/webgoat/issues/1410).
+- [#1396 password_reset return 500 Error](https://github.com/mrping007/webgoat/issues/1396).
+- [#1379 Move XXE to A05:2021-Security Misconfiguration](https://github.com/mrping007/webgoat/issues/1379).
 
 ## Version 2023.3
 
@@ -42,24 +42,24 @@ many more releases this year.
 - Removed logic to start WebGoat on a random port when port `8080` is taken. We would loop until we found a free port. We simplified this to just start on the specified port.
 - Add Google formatter for all our code, a PR now checks whether the code adheres to the standard.
 - Renaming of all packages and folders.
-- [#1039 New OWASP Top 10](https://github.com/WebGoat/WebGoat/issues/1093)
-- [#1065 New lesson about logging](https://github.com/WebGoat/WebGoat/issues/1065)
+- [#1039 New OWASP Top 10](https://github.com/mrping007/webgoat/issues/1093)
+- [#1065 New lesson about logging](https://github.com/mrping007/webgoat/issues/1065)
 
 ### Bug fixes
 
-- [#1193 Vulnerable component lesson - java.desktop does not "opens java.beans" to unnamed module](https://github.com/WebGoat/WebGoat/issues/1193)
-- [#1176 Minor: XXE lesson 12 patch not reset by 'lesson reset' while it IS reset by leaving/returning to lesson](https://github.com/WebGoat/WebGoat/issues/1176)
-- [#1134 "Exploiting XStream" assignment does not work](https://github.com/WebGoat/WebGoat/issues/1134)
-- [#1130 Typo: Using Indrect References](https://github.com/WebGoat/WebGoat/issues/1130)
-- [#1101 SQL lesson not correct](https://github.com/WebGoat/WebGoat/issues/1101)
-- [#1079 startup.sh issues of WebWolf - cannot connect to the WebGoat DB](https://github.com/WebGoat/WebGoat/issues/1079)
-- [#1379 Move XXE to A05:2021-_Security_ Misconfiguration](https://github.com/WebGoat/WebGoat/issues/1379)
-- [#1298 SocketUtils is deprecated and will be removed in Spring Security 6](https://github.com/WebGoat/WebGoat/issues/1298)
-- [#1248 Rewrite the WebWolf Introduction Lesson with the new changes](https://github.com/WebGoat/WebGoat/issues/1248)
-- [#1200 Type cast error in sample code at JWT token section](https://github.com/WebGoat/WebGoat/issues/1200)
-- [#1173 --server.port=9000 is not respected on Windows (both cmd as Powershell)](https://github.com/WebGoat/WebGoat/issues/1173)
-- [#1103 (A1) path traversel lesson 7 seems broken](https://github.com/WebGoat/WebGoat/issues/1103)
-- [#986 - User registration not persistant](https://github.com/WebGoat/WebGoat/issues/986)
+- [#1193 Vulnerable component lesson - java.desktop does not "opens java.beans" to unnamed module](https://github.com/mrping007/webgoat/issues/1193)
+- [#1176 Minor: XXE lesson 12 patch not reset by 'lesson reset' while it IS reset by leaving/returning to lesson](https://github.com/mrping007/webgoat/issues/1176)
+- [#1134 "Exploiting XStream" assignment does not work](https://github.com/mrping007/webgoat/issues/1134)
+- [#1130 Typo: Using Indrect References](https://github.com/mrping007/webgoat/issues/1130)
+- [#1101 SQL lesson not correct](https://github.com/mrping007/webgoat/issues/1101)
+- [#1079 startup.sh issues of WebWolf - cannot connect to the WebGoat DB](https://github.com/mrping007/webgoat/issues/1079)
+- [#1379 Move XXE to A05:2021-_Security_ Misconfiguration](https://github.com/mrping007/webgoat/issues/1379)
+- [#1298 SocketUtils is deprecated and will be removed in Spring Security 6](https://github.com/mrping007/webgoat/issues/1298)
+- [#1248 Rewrite the WebWolf Introduction Lesson with the new changes](https://github.com/mrping007/webgoat/issues/1248)
+- [#1200 Type cast error in sample code at JWT token section](https://github.com/mrping007/webgoat/issues/1200)
+- [#1173 --server.port=9000 is not respected on Windows (both cmd as Powershell)](https://github.com/mrping007/webgoat/issues/1173)
+- [#1103 (A1) path traversel lesson 7 seems broken](https://github.com/mrping007/webgoat/issues/1103)
+- [#986 - User registration not persistant](https://github.com/mrping007/webgoat/issues/986)
 
 ## Version 8.2.2
 
@@ -69,9 +69,9 @@ many more releases this year.
 
 ### Bug fixes
 
-- [#1039 jwt-7-Code review](https://github.com/WebGoat/WebGoat/issues/1039)
-- [#1031 SQL Injection (intro) 5: Data Control Language (DCL) the wiki's solution is not correct](https://github.com/WebGoat/WebGoat/issues/1031)
-- [#1027 Webgoat 8.2.1 Vulnerable_Components_12 Shows internal server error](https://github.com/WebGoat/WebGoat/issues/1027)
+- [#1039 jwt-7-Code review](https://github.com/mrping007/webgoat/issues/1039)
+- [#1031 SQL Injection (intro) 5: Data Control Language (DCL) the wiki's solution is not correct](https://github.com/mrping007/webgoat/issues/1031)
+- [#1027 Webgoat 8.2.1 Vulnerable_Components_12 Shows internal server error](https://github.com/mrping007/webgoat/issues/1027)
 
 ## Version 8.2.1
 
@@ -89,18 +89,18 @@ many more releases this year.
 
 ### Bug fixes
 
-- [#974 SQL injection Intro 5 not solvable](https://github.com/WebGoat/WebGoat/issues/974)
-- [#962 SQL-Lesson 5 (Advanced) Solvable with wrong anwser](https://github.com/WebGoat/WebGoat/issues/962)
-- [#961 SQl-Injection lesson 4 not deleting created row](https://github.com/WebGoat/WebGoat/issues/961)
-- [#949 Challenge: Admin password reset always solvable](https://github.com/WebGoat/WebGoat/issues/949)
-- [#923 - Upgrade to Java 15](https://github.com/WebGoat/WebGoat/issues/923)
-- [#922 - Vulnerable components lesson](https://github.com/WebGoat/WebGoat/issues/922)
-- [#891 - Update the OWASP website with the new all-in-one Docker container](https://github.com/WebGoat/WebGoat/issues/891)
-- [#844 - Suggestion: Update navigation](https://github.com/WebGoat/WebGoat/issues/844)
-- [#843 - Bypass front-end restrictions: Field restrictions - confusing text in form](https://github.com/WebGoat/WebGoat/issues/843)
-- [#841 - XSS - Reflected XSS confusing instruction and success messages](https://github.com/WebGoat/WebGoat/issues/841)
-- [#839 - SQL Injection (mitigation) Order by clause confusing](https://github.com/WebGoat/WebGoat/issues/839)
-- [#838 - SQL mitigation (filtering) can only be passed by updating table](https://github.com/WebGoat/WebGoat/issues/838)
+- [#974 SQL injection Intro 5 not solvable](https://github.com/mrping007/webgoat/issues/974)
+- [#962 SQL-Lesson 5 (Advanced) Solvable with wrong anwser](https://github.com/mrping007/webgoat/issues/962)
+- [#961 SQl-Injection lesson 4 not deleting created row](https://github.com/mrping007/webgoat/issues/961)
+- [#949 Challenge: Admin password reset always solvable](https://github.com/mrping007/webgoat/issues/949)
+- [#923 - Upgrade to Java 15](https://github.com/mrping007/webgoat/issues/923)
+- [#922 - Vulnerable components lesson](https://github.com/mrping007/webgoat/issues/922)
+- [#891 - Update the OWASP website with the new all-in-one Docker container](https://github.com/mrping007/webgoat/issues/891)
+- [#844 - Suggestion: Update navigation](https://github.com/mrping007/webgoat/issues/844)
+- [#843 - Bypass front-end restrictions: Field restrictions - confusing text in form](https://github.com/mrping007/webgoat/issues/843)
+- [#841 - XSS - Reflected XSS confusing instruction and success messages](https://github.com/mrping007/webgoat/issues/841)
+- [#839 - SQL Injection (mitigation) Order by clause confusing](https://github.com/mrping007/webgoat/issues/839)
+- [#838 - SQL mitigation (filtering) can only be passed by updating table](https://github.com/mrping007/webgoat/issues/838)
 
 ## Contributors
 
@@ -129,19 +129,19 @@ Special thanks to the following contributors providing us with a pull request:
 
 ### Bug fixes
 
-- [#743 - Character encoding errors](https://github.com/WebGoat/WebGoat/issues/743)
-- [#811 -  Flag submission fails](https://github.com/WebGoat/WebGoat/issues/811)
-- [#810 - Scoreboard for challenges shows csrf users](https://github.com/WebGoat/WebGoat/issues/810)
-- [#788 - strange copy in constructor](https://github.com/WebGoat/WebGoat/issues/788)
-- [#760 - Execution of standalone jar fails (Flyway migration step](https://github.com/WebGoat/WebGoat/issues/760)
-- [#766 - Unclear objective of vulnerable components practical assignment](https://github.com/WebGoat/WebGoat/issues/766)
-- [#708 - Seems like the home directory of WebGoat always use @project.version@](https://github.com/WebGoat/WebGoat/issues/708)
-- [#719 - WebGoat: 'Contact Us' email link in header is not correctly set](https://github.com/WebGoat/WebGoat/issues/719)
-- [#715 - Reset lesson doesn't reset the "HTML lesson" => forms stay succesful](https://github.com/WebGoat/WebGoat/issues/715)
-- [#725 - Vulnerable Components lesson 12 broken due to too new dependency](https://github.com/WebGoat/WebGoat/issues/725)
-- [#716 -  On M26 @project.version@ is not "interpreted" #7](https://github.com/WebGoat/WebGoat/issues/716)
-- [#721 couldn't be able to run CSRF lesson 3: Receive Whitelabel Error Page](https://github.com/WebGoat/WebGoat/issues/721)
-- [#724 - Dead link in VulnerableComponents lesson 11](https://github.com/WebGoat/WebGoat/issues/724)
+- [#743 - Character encoding errors](https://github.com/mrping007/webgoat/issues/743)
+- [#811 -  Flag submission fails](https://github.com/mrping007/webgoat/issues/811)
+- [#810 - Scoreboard for challenges shows csrf users](https://github.com/mrping007/webgoat/issues/810)
+- [#788 - strange copy in constructor](https://github.com/mrping007/webgoat/issues/788)
+- [#760 - Execution of standalone jar fails (Flyway migration step](https://github.com/mrping007/webgoat/issues/760)
+- [#766 - Unclear objective of vulnerable components practical assignment](https://github.com/mrping007/webgoat/issues/766)
+- [#708 - Seems like the home directory of WebGoat always use @project.version@](https://github.com/mrping007/webgoat/issues/708)
+- [#719 - WebGoat: 'Contact Us' email link in header is not correctly set](https://github.com/mrping007/webgoat/issues/719)
+- [#715 - Reset lesson doesn't reset the "HTML lesson" => forms stay succesful](https://github.com/mrping007/webgoat/issues/715)
+- [#725 - Vulnerable Components lesson 12 broken due to too new dependency](https://github.com/mrping007/webgoat/issues/725)
+- [#716 -  On M26 @project.version@ is not "interpreted" #7](https://github.com/mrping007/webgoat/issues/716)
+- [#721 couldn't be able to run CSRF lesson 3: Receive Whitelabel Error Page](https://github.com/mrping007/webgoat/issues/721)
+- [#724 - Dead link in VulnerableComponents lesson 11](https://github.com/mrping007/webgoat/issues/724)
 
 ## Contributors
 
