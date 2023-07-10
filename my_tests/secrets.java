@@ -66,3 +66,14 @@ public class SampleCodeWithSecrets {
 
     // Other code goes here...
 }
+
+public class SecretExample {
+    public static void main(String[] args) {
+        String apiKey = "my_api_key";
+        String password = "my_password";
+        String databaseURL = "jdbc:mysql://localhost:3306/mydb?user=root&password=secret";
+        String token = "my_token";
+        
+        System.out.println("This is a sample code with secrets.");
+    }
+}
