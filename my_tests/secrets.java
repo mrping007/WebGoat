@@ -67,7 +67,7 @@ public class SampleCodeWithSecrets {
     // Other code goes here...
 }
 
-public class SecretExample {
+public class SecretExample_ {
     public static void main(String[] args) {
         String apiKey = "my_api_key";
         String password = "my_password";
